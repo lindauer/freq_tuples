@@ -7,10 +7,10 @@ This script depends on NLTK. Do download NLTK, do the following.
 
 $ pip install nltk
 
->$ python
-> &gt;&gt; import nltk
-> &gt;&gt; nltk.download('stopwords')
-> &gt;&gt; nltk.download('punkt')
+$ python
+&gt;&gt; import nltk
+&gt;&gt; nltk.download('stopwords')
+&gt;&gt; nltk.download('punkt')
 
 
 $ ./freq_tuples.py --help
