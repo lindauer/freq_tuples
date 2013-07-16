@@ -26,6 +26,8 @@ This script depends on NLTK. Do download NLTK, do the following.
       -t SIZE, --tuple=SIZE
                             size of tuple
 
+By default, English stopwords, using the NLTK list, are filtered out. To add stopwords to this list, you may add them, one per line, to a file called extra_stopwords.txt in the same directory as the script.
+
 ## Examples
 
 To find the most common pairs in a window size of 3, run the following.
